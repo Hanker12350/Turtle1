@@ -1,0 +1,23 @@
+import turtle as t
+
+t.Screen()
+t.bgcolor('green')
+
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+t.forward(100)
+
+def draw_square(t, side_length):
+    for _ in range(4):
+        t.forward(side_length)
+        t.right(90)
+
+t.penup()
+t.goto(-150, 0)
+t.pendown()
+
+draw_square(t, 100)
+
+t.done()
