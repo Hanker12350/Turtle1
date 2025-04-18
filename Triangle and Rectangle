@@ -1,0 +1,25 @@
+import turtle as t
+
+t.Screen()
+t.bgcolor('green')
+
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+t.forward(100)
+
+def draw_rect(t):
+    for _ in range(2):
+        t.forward(200)
+        t.right(90)
+        t.forward(100)
+        t.right(90)
+
+t.penup()
+t.goto(-150, 0)
+t.pendown()
+
+draw_rect(100)
+
+t.done()
