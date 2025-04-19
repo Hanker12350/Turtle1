@@ -1,0 +1,14 @@
+l = ['Apple', 'Guava', 'Mango', 'Banana', 'Kiwi']
+
+print("First Elementt: ", l[0])
+print("Length of list: ", len(l))
+print("Last Element: ", l[-1])
+
+l.append('Papaya')
+print("Updated list:", l)
+l.remove('Papaya')
+print("Updated list:", l)
+l.sort()
+print("Sorted list:", l)
+l.pop(1)
+print("Updated list:", l)
