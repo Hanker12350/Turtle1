@@ -1,0 +1,10 @@
+while True:
+  number = int(input("Enter number to check "))
+  print("Number to be checked: ", number)
+
+  if number > 0:
+    print("This is Positive")
+  elif number < 0:
+    print("This is Negative")
+  else:
+    print("This is Netural")
